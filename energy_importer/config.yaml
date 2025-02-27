@@ -14,3 +14,8 @@ schema:
   influxdb_url: str
   influxdb_token: str
   influxdb_bucket: str
+arch:
+  - amd64
+  - armv7
+  - armhf
+  - aarch64
