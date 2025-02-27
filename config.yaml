@@ -1,0 +1,16 @@
+name: "Energy Importer"
+version: "1.0"
+slug: "energy_importer"
+description: "Importiert historische Energiedaten in HomeAssistant und InfluxDB."
+startup: services
+boot: auto
+options:
+  target: "both"  # "sqlite", "influxdb" oder "both"
+  influxdb_url: "http://192.168.1.xx:8086"
+  influxdb_token: "your-token"
+  influxdb_bucket: "homeassistant"
+schema:
+  target: list(str)
+  influxdb_url: str
+  influxdb_token: str
+  influxdb_bucket: str
