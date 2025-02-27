@@ -1,5 +1,5 @@
 name: "Energy Importer"
-version: "1.0"
+version: "1.1"
 slug: "energy_importer"
 description: "Importiert historische Energiedaten in HomeAssistant und InfluxDB."
 startup: services
