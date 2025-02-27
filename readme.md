@@ -1,0 +1,1 @@
+[![Add Repository to HA][my-ha-badge]][my-ha-url]
